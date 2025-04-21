@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Env
+.env
+venv/
+ENV/
+env/
+.env
+
+# Django migrations
+**/migrations/
+!*/migrations/__init__.py
+
+# SQLite database
+*.sqlite3
+
+# Django static/media
+staticfiles/
+static/
+media/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Logs
+*.log
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+coverage.xml
+
+# MyPy
+.mypy_cache/
+
+# Other
+*.pot
+*.mo
+*.swp
